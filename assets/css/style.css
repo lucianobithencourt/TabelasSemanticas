@@ -1,0 +1,40 @@
+@charset "UFT-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+thead {
+    height: 30px;
+    border: 1px solid black;
+}
+
+thead,tfoot {
+    background-color: gray;
+    color:white;
+}
+.numero {
+    text-align: right;
+}
+
+.total-numero {
+    font-weight: bold;
+    text-align: right;
+    color: black;
+   
+}
+
+
+table {
+    width: 500px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+
+tr,td {
+    padding: 5px 6px;
+    border: 1px solid black;
+    
+}
