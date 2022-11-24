@@ -5,6 +5,47 @@
     padding: 0px;
 }
 
+
+/* Estrutura semantica de uma tabela 
+
+<table>
+caption - legenda
+
+thead {
+    th > tr > td
+}
+
+tbody {
+    th > tr > td
+}
+
+tfoot {
+    th > tr > td
+}
+
+</table>
+*/
+
+/* criando efeito zebrado
+
+tbody > tr:nth-child(2n){
+    bacgroud-color:;
+}
+ou usar odd even
+
+tbody > tr:nth-child(odd){
+    bacgroud-color:;
+}
+
+*/
+
+caption {
+    background-color: lightgray;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 thead {
     height: 30px;
     border: 1px solid black;
@@ -13,6 +54,10 @@ thead {
 thead,tfoot {
     background-color: gray;
     color:white;
+}
+
+tbody > tr:nth-child(2n){
+    background-color:rgba(128, 128, 128, 0.411)
 }
 .numero {
     text-align: right;
